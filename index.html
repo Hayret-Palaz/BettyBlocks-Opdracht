@@ -1,0 +1,23 @@
+<!--
+  @author Hayret Palaz
+-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>2 Way Data Binding</title>
+	<script src="simpleTwoWayDataBinding.js"></script>
+</head>
+<body>
+	<input type="text" data-bind-group1 data-bind-property="value1" placeholder="value1"><br>
+	<input type="text" data-bind-group1 data-bind-property="value2" placeholder="value2"><br>
+	<input type="text" data-bind-group2 data-bind-property="value3" placeholder="value3"><br>
+	<h1 data-bind-group1 data-bind-property="value1">???</h1>
+	<h1 data-bind-group1 data-bind-property="value2">???</h1>
+	<h1 data-bind-group2 data-bind-property="value3">???</h1>
+	<h1 data-bind-group2 data-bind-property="value3">???</h1>
+	<h1 data-bind-group2 data-bind-property="value3">???</h1>
+	<h1 data-bind-group2 data-bind-property="value3">???</h1>
+	<script src="mainScript.js"></script>
+</body>
+</html>
